@@ -1,0 +1,50 @@
+main {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.imgPantalla {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.imgPantalla img {
+  height: 850px;
+  width: 800px;
+}
+
+.panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+}
+.panel div {
+  width: 100%;
+  height: 500px;
+}
+
+h2{
+text-align: center;
+margin-top: 20px;
+}
+.panel div p {
+  text-align: justify;
+  line-height: 25px;
+  margin: 15px;
+  padding-top: 5px;
+  
+
+}
+
+.imgPanel {
+  width: 100%;
+  height:600px;
+  padding: 20px;
+  border-radius:40px;
+}
