@@ -3,7 +3,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  border: solid 1px red;
+ border: solid 1px red;
 }
 
 
@@ -64,7 +64,7 @@ list-style: none;
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
-  'wght' 300,
+  'wght' 250,
   'GRAD' 0,
   'opsz' 24;
   color: white;margin-right: 15px;
