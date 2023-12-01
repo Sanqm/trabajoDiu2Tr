@@ -72,5 +72,17 @@ list-style: none;
 
 
 footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: green;
   width: 100%;
+  color:white;
+  height: ;
+}
+
+footer ul li{
+  list-style: none;
+  display: inline-block;
+  gap: 50px;
 }
