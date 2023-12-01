@@ -78,11 +78,20 @@ footer{
   background-color: green;
   width: 100%;
   color:white;
-  height: ;
+  height: 100px;
 }
 
+.legales, .socialMedia{
+  width: 50%;
+}
 footer ul li{
   list-style: none;
   display: inline-block;
-  gap: 50px;
+  margin: 10px;
+  justify-items: center;
+  
+}
+
+footer ul li:visited{
+  color: white;
 }
