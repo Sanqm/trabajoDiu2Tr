@@ -4,26 +4,56 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 .cabecera{
-    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
 .cabecera img{
-    width: 25em;
-    height: 25em;
-    margin: 3em;
+    width: 30vw;
+    height: 25vh;
 }
+
+
 .comprar{
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-around;
     width: 100%;
     height: max-content;
+    border: solid 1px red;
 }
 
 .comprar img{
     width: 25em;
     height: 25em;
     margin: 3em;
+}
+
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: max-content;
+}
+.productos h3{
+    font-size: 2em;
+    text-align: center;
+}
+
+.productos button{
+    align-self: center;
+    width: 50%;
+    padding: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border: solid 3px black;
+    font-size: 1.5em;
 }
