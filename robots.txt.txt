@@ -1,0 +1,9 @@
+User-agent: Googlebot
+Allow:/
+Dissallow:/comprar/
+Dissallow:/download/
+
+
+User-Agent:*
+Allow:/
+Disallow: /rsc/
