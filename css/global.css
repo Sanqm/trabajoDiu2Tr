@@ -30,7 +30,7 @@ header {
 
 #imgLolgo {
   height: auto;
-  width: 300px;
+  width: 16em;
 
 }
 
@@ -40,14 +40,9 @@ header {
   justify-content: space-around;
   flex-wrap: wrap;
   width: auto;
-
-
 }
 
-.navegador ul {
-  align-self: center;
 
-}
 
 .navegador ul li {
   list-style: none;

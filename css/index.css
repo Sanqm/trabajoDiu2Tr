@@ -21,7 +21,9 @@ main {
   display: flex;
   flex-direction: row;
   background-color: white;
+
 }
+
 .panel div {
   width: 100%;
   height: max-content;
@@ -44,11 +46,13 @@ margin-top: 2em;
  flex-direction: row;
  flex-wrap: wrap;
  justify-content: center;
+ height: max-content;
+
 }
 
 .imgPanel {
-  width: 50em;
-  height: 30em;
+width: 90%;
+height: max-content;
  margin-top: 3em;
  margin-bottom: 2em;
   border-radius:40px;
