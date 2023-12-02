@@ -43,8 +43,6 @@ header{
   margin-left: -200px;
 }
 
-
-
 .navegador ul{
   align-self: center;
 }
@@ -75,23 +73,38 @@ footer{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: green;
+  background-color: #0f0f0f;
   width: 100%;
   color:white;
-  height: 100px;
+  height: max-content;
+
 }
 
-.legales, .socialMedia{
+footer ul{
   width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
 }
-footer ul li{
+
+footer ul li {
   list-style: none;
   display: inline-block;
   margin: 10px;
-  justify-items: center;
-  
+  justify-items: center;  
+  padding: 3em;;
 }
 
-footer ul li:visited{
+footer ul li a{
   color: white;
+}
+
+.socialMedia{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
