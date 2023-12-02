@@ -3,7 +3,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
- /*border: solid 1px red;*/
+ 
 }
 
 
@@ -37,10 +37,11 @@ header{
 .navegador{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   width: auto;
-  margin-left: -200px;
+  
+  
 }
 
 .navegador ul{
@@ -51,12 +52,13 @@ list-style: none;
  display: inline-block;
  align-self: center;
  color: white;
- margin: 50px;
+margin: 4em;
 }
 
 .iconosH{
+
     align-self: center;
-    margin-right: 50px;
+    margin-right: 2em;
   }
 
 .material-symbols-outlined {
@@ -65,9 +67,12 @@ list-style: none;
   'wght' 250,
   'GRAD' 0,
   'opsz' 24;
-  color: white;margin-right: 15px;
+  color: white;
+  margin-right: 1em;
 }
 
+
+/********Footer*****************/
 
 footer{
   display: flex;
@@ -79,6 +84,7 @@ footer{
   height: max-content;
 
 }
+
 
 footer ul{
   width: 60%;
@@ -107,6 +113,7 @@ footer ul li a{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-end;
-  padding: 3em;
+  padding: 4em;
+  margin-right: 2em;
 }
 
