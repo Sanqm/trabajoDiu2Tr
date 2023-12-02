@@ -1,3 +1,29 @@
 main{
     background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cabecera{
+    justify-items: center;
+}
+.cabecera img{
+    width: 25em;
+    height: 25em;
+    margin: 3em;
+}
+.comprar{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    width: 100%;
+    height: max-content;
+}
+
+.comprar img{
+    width: 25em;
+    height: 25em;
+    margin: 3em;
 }
