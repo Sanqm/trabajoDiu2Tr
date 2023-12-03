@@ -5,21 +5,25 @@ main{
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
-   align-content: center;
+   justify-content: center;
+}
+
+div{
+    border: solid 1px red;
 }
 
 .encabezado{
     text-align: center;
     margin-top: 3em;
     margin-bottom: 3em;
-    width: 100vw;
+ 
     line-height: 4em;
 }
 
 .contacto{
     display: grid;
     grid-template-columns: auto auto;
-    width: 100vw;
+    width: 1;
     margin-bottom: 3em;
 }
 .contactForm{
@@ -38,7 +42,7 @@ main{
 }
 
 .contactForm button{
-    width: 25%;
+   width: 8em;
    align-self: center;
    margin: 2em;
    height: 3em; 
@@ -75,12 +79,13 @@ span{
     height: auto;
     width: auto;
 }
+
 .suscribirse input{
     height: 3em;
     width: 100%;
     margin: 1em;
     box-shadow: 5px 5px 2px rgb(0,0,0,0.2);
-
+}
 .suscribirse button{
     height: 3em;
     width: 30%;
