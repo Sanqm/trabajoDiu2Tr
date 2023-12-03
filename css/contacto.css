@@ -1,0 +1,59 @@
+main{
+   background-color: white;
+   width: 100vw;
+   height: max-content;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-content: center;
+}
+div{
+    border:  solid 1px red;
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 50vw;
+}
+
+.contacto{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 75vw;
+   
+}
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    margin: 3em;
+}
+.contactForm label{
+    margin: 0.5em;
+}
+
+.inp, textarea
+{
+    height: 3em;
+    border-top: none ;
+    border-left:none; 
+    border-right: none;
+    margin-bottom: 1em;
+
+}
+
+.contactForm button{
+    width: 25%;
+   align-self: center;
+   margin: 2em;
+   height: 3em; 
+   border: solid 2px black;
+   font-size: 1em;
+}
+.newsLetter  {
+    margin: 2em;
+}
