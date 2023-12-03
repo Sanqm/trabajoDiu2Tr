@@ -121,3 +121,6 @@ footer ul li a, footer a:visited {
 
 }
 
+.socialMedia img{
+  filter: invert();
+}
