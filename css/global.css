@@ -79,11 +79,11 @@ header {
 footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #0f0f0f;
   width: 100%;
   color: white;
-  height: max-content;
+  height:2em;
 
 }
 
@@ -93,14 +93,13 @@ footer ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 
 }
 
 footer ul li {
   list-style: none;
   display: inline-block;
-  margin: 10px;
   justify-items: center;
   padding: 4em;
 
@@ -112,11 +111,13 @@ footer ul li a, footer a:visited {
 }
 
 .socialMedia {
-  width: 40%;
+  width: 25%;
+  height: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding: 4em;
-  margin-right: 2em;
+
 }
+
