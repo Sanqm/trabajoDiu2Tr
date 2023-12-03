@@ -15,8 +15,20 @@
   <link rel="stylesheet" href="/css/comprar.css">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-</head>
 
+<script>
+  function showTable(){
+    var mostrar = false;
+    if((!mostrar)){
+      document.getElementById("tprecios").style.display = "block";
+      mostrar= true;
+    }else{
+      document.getElementById("tprecios").style.display = "none";
+    }
+  }
+</script>
+
+</head>
 <body>
   <header>
     <div class="logo"><img id="imgLolgo" src="/img/logos/logoCMGrey.PNG" alt="logo"></div>
@@ -36,10 +48,8 @@
     </div>
   </header>
 
-
   <main>
-    <div class="cabecera">
-
+    <div class="marco">
     </div>
     <div class="comprar">
       <div class="productos">
@@ -79,43 +89,43 @@
         <button class="btnComprar">Comprar</button>
       </div>
     </div>
-    <div class="precios">
-      <button>Ver tab</button>
-      <table>
-        <tr>
-          <td>Nombre</td>
-          <td>Precio</td>
-        </tr>
-        <tr>
-          <td>Souto da Fraga</td>
-          <td>10.50€</td>
-        </tr>
-        <tr>
-          <td>Outeiro da Cruz</td>
-          <td>10.50€</td>
-        </tr>
-        <tr>
-          <td>Meiga Dourada</td>
-          <td>15.90€</td>
-        </tr>
-        <tr>
-          <td>Pack Souto da Fraga</td>
-          <td>29€</td>
-        </tr>
-        <tr>
-          <td>Pack Selección</td>
-          <td>25€</td>
-        </tr>
-        <tr>
-          <td>Gran Reserva Meiga Dourada</td>
-          <td>45€</td>
-        </tr>
-      </table>
-    </div>
+
+    <div class="marco">
+      <button onclick="showTable()" >Tabla de precios</button>
+      <div class="precios">
+        <table id="tprecios">
+          <tr>
+            <td>Nombre</td>
+            <td>Precio</td>
+          </tr>
+          <tr>
+            <td>Souto da Fraga</td>
+            <td>10.50€</td>
+          </tr>
+          <tr>
+            <td>Outeiro da Cruz</td>
+            <td>10.50€</td>
+          </tr>
+          <tr>
+            <td>Meiga Dourada</td>
+            <td>15.90€</td>
+          </tr>
+          <tr>
+            <td>Pack Souto da Fraga</td>
+            <td>29€</td>
+          </tr>
+          <tr>
+            <td>Pack Selección</td>
+            <td>25€</td>
+          </tr>
+          <tr>
+            <td>Gran Reserva Meiga Dourada</td>
+            <td>45€</td>
+          </tr>
+        </table>
+      </div>
+
   </main>
-
-
-
   <footer>
     <ul>
       <li><a href="">Contacto</a></li>

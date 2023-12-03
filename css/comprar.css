@@ -8,13 +8,13 @@ main{
     
 }
 
-.cabecera{
+.marco{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     width: 100vw;
-    height: 19vh;
+    height: 15vh;
     background-image: url('/img/imgBotellas/3botellasSerigrafia.jpg');
     background-repeat: repeat-x;
     background-size:cover;
@@ -62,8 +62,25 @@ main{
     font-size: 1.5em;
 }
 
+.precios{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
 
+.marco button{
+    width: 25%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border: solid 3px black;
+    font-size: 1.5em;
+    background-color: transparent;
+}
 .precios table{
     border: solid 3px black;
     display: none;
+    
 }
+
