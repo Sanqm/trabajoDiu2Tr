@@ -17,13 +17,14 @@
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 <script>
+  var mostrar = true;
   function showTable(){
-    var mostrar = false;
-    if((!mostrar)){
+    if((mostrar)){
       document.getElementById("tprecios").style.display = "block";
-      mostrar= true;
+      mostrar= false;
     }else{
       document.getElementById("tprecios").style.display = "none";
+      mostrar=true;
     }
   }
 </script>
@@ -90,13 +91,13 @@
       </div>
     </div>
 
-    <div class="marco">
-      <button onclick="showTable()" >Tabla de precios</button>
+    <div class="marco2">
+      <button id="btnprecios" onclick="showTable()" >Tabla de precios</button>
       <div class="precios">
         <table id="tprecios">
           <tr>
-            <td>Nombre</td>
-            <td>Precio</td>
+            <th>Nombre</th>
+            <th>Precio</th>
           </tr>
           <tr>
             <td>Souto da Fraga</td>
@@ -123,6 +124,7 @@
             <td>45€</td>
           </tr>
         </table>
+   
       </div>
 
   </main>
