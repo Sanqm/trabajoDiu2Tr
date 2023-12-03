@@ -12,20 +12,18 @@ div{
 }
 
 .encabezado{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
+    text-align: center;
     margin-top: 3em;
     margin-bottom: 3em;
-    width: 50vw;
+    width: 75vw;
+    line-height: 4em;
 }
 
 .contacto{
     display: grid;
     grid-template-columns: auto auto;
     width: 75vw;
-   
+    margin-bottom: 3em;
 }
 .contactForm{
     display: flex;
@@ -36,14 +34,9 @@ div{
     margin: 0.5em;
 }
 
-.inp, textarea
-{
+.inp, textarea{
     height: 3em;
-    border-top: none ;
-    border-left:none; 
-    border-right: none;
     margin-bottom: 1em;
-
 }
 
 .contactForm button{
@@ -54,6 +47,23 @@ div{
    border: solid 2px black;
    font-size: 1em;
 }
-.newsLetter  {
-    margin: 2em;
+
+.enviar input{
+    margin-right: 3px;
+}
+
+.enviar a, .enviar a:hover {
+ text-decoration: none;
+ color: black;
+}
+span{
+    color: red;
+}
+
+.newsLetter{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
 }

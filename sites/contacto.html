@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -45,30 +46,36 @@
     </div>
     <div class="contacto">
       <form action="" class="contactForm">
-        <label for="">Nombre:</label>
-        <input class="inp" type="text"  required>
+        <label for="">Nombre:<span>*</span></label>
+        <input class="inp" type="text" required>
         <label for="">Apellidos:</label>
-        <input  class="inp" type="text">
-        <label for="">Email:</label>
-        <input  class="inp" type="email" required>
+        <input class="inp" type="text">
+        <label for="">Email:<span>*</span></label>
+        <input class="inp" type="email" required>
         <label for="">Télefono:</label>
-        <input  class="inp" type="number">
-        <label for="">Asunto:</label>
-        <input  class="inp" type="text" required>
-        <label for="">Mesaje:</label>
+        <input class="inp" type="number">
+        <label for="">Asunto:<span>*</span></label>
+        <input class="inp" type="text" required>
+        <label for="">Mesaje:<span>*</span></label>
         <textarea id="txtMensaje" cols="30" rows="10" required></textarea>
-        <button>Enviar</button>
-        <input type="checkbox"><a href="" required>Acepto Terminos y condiciones</a>
+        <div class="enviar">
+          <button>Enviar</button>
+          <input type="checkbox"><a href="" required>Acepto Terminos y condiciones</a>
+        </div>
       </form>
       <div class="newsLetter">
         <h2>Mantende al día de nuestras novedades</h2>
         <h3>Suscribete al newsletter de Bodegas Conde de Machado </h3>
-        <input type="text"><button>Suscribete</button>
-        <input type="checkbox">
-        <a href="" required>Acepto Terminos y condiciones</a>
+        <div class="newsActivar">
+
+          <input type="text"><button>Suscribete</button>
+          <input type="checkbox">
+          <a href="" required>Acepto Terminos y condiciones</a>
+        </div>
+
       </div>
     </div>
-  </main> 
+  </main>
 
 
 
@@ -88,9 +95,9 @@
     </ul>
     <div class="socialMedia">
       <a href="https://www.instagram.com/" target="_blank"><img src="/img/icons/icons8-instagram2.svg"
-        alt="isntagram"></a>
-    <a href="https://es-es.facebook.com/" target="_blank"><img src="/img/icons/icons8-facebook2.svg" alt="facebook">
-      <a href="https://twitter.com/?lang=es" target="_blank"><img src="/img/icons/icons8-twitterx.svg" alt="facebook">
+          alt="isntagram"></a>
+      <a href="https://es-es.facebook.com/" target="_blank"><img src="/img/icons/icons8-facebook2.svg" alt="facebook">
+        <a href="https://twitter.com/?lang=es" target="_blank"><img src="/img/icons/icons8-twitterx.svg" alt="facebook">
     </div>
     </div>
   </footer>
