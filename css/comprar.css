@@ -61,3 +61,9 @@ main{
     border: solid 3px black;
     font-size: 1.5em;
 }
+
+
+.precios table{
+    border: solid 3px black;
+    display: none;
+}
