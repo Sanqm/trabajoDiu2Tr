@@ -123,4 +123,6 @@ footer ul li a, footer a:visited {
 
 .socialMedia img{
   filter: invert();
+  width: 30px;
+  height: 30px;
 }
