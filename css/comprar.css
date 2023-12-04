@@ -4,8 +4,6 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-   
-    
 }
 
 .marco{
@@ -25,7 +23,7 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
     width: 100%;
-    height: max-content;
+   
    
 }
 
@@ -61,6 +59,7 @@ main{
     margin-bottom: 2em;
     border: solid 2px black;
     font-size: 1.5em;
+    background-color: transparent;
   
 }
 
@@ -75,7 +74,7 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     width: 100vw;
-    height: max-content;
+    /*height: max-content;*/
     background-image: url('/img/imgBotellas/3botellasSerigrafiaMarco2.jpg');
     background-repeat: repeat-x;
     background-size:cover;
