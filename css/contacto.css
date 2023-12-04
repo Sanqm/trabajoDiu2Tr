@@ -3,10 +3,10 @@ main{
     width: 100%;
     height: auto;
 }
-div{
-    border: solid 1px red;
-}
 
+div{
+    border: solid 2px green;
+}
 .cabecera{
     display: flex;
     flex-direction: column;
@@ -32,7 +32,8 @@ div{
     flex-wrap: wrap;
     width: auto;
     height: 50%;
-    gap: 30%;
+    gap: 20%;
+    margin-bottom: 3em;
 }
 
 .contactForm{
@@ -45,6 +46,7 @@ div{
 
 span{
     color: red;
+    font-size: 12px;
 }
 
 .contactForm label{
@@ -62,6 +64,7 @@ span{
 .contactForm textarea{
     margin-bottom: 1em;
     box-shadow: 1px 1px 1px rgb(0,0,0,0.2);
+    
 }
 
 #enviar{ /*boton enviar formulario */
@@ -72,15 +75,57 @@ span{
     border: solid 2px black;
     font-size: 1em;
     font-weight: bold;
-    background-color: transparent;
+    background-color: black;
+    color: white;
 }
-#enviar:hover{background-color: black;color: white;}
-
 a, a:visited{text-decoration: none; 
     color: black;
     margin-left:3px ;
 }
 
+.newsLetter{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 40%;
+}
+.newsLetter h2{
+    font-weight: 900;
+    font-size: 2em;
+    margin: 4em;
+}
+.newsLetter h3{
+    margin-bottom: 2em;
+}
+
+.newsLetter p{
+    width: 100%;
+}
+
+#inpsuscribirse{
+    width: 70%;
+    height: 3em;
+    box-shadow: 1px 1px 1px rgb(0,0,0,0.2);
+}
+#btnsuscriberse{
+    width: 20%;
+    height: 3em;
+    background-color: black;
+    color: white;
+    border: none;
+}
+#pdatos{
+    text-align: left;
+    margin-left: 39px;
+    margin-right: 5px;
+    margin-top: 1em;
+}
+
+#pdatos input{
+    margin-right: 5px;
+}
 /******Direccion de la bodega con los mapas de google******/
 .direccion{
     display: flex;
