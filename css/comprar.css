@@ -22,7 +22,7 @@ main{
 
 .comprar{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
     width: 100%;
     height: max-content;
