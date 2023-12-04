@@ -13,7 +13,7 @@ main{
     justify-content: center;
     width: 100vw;
     height: 15vh;
-    background-image: url('/img/imgBotellas/3botellasSerigrafiaMarco2.jpg');
+    background-image: url('../img/imgBotellas/3botellasSerigrafiaMarco2.jpg');
     background-repeat: repeat-x;
     background-size:cover;
 }
@@ -74,7 +74,7 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     width: 100vw;
-    background-image: url('/img/imgBotellas/3botellasSerigrafiaMarco2.jpg');
+    background-image: url('../img/imgBotellas/3botellasSerigrafiaMarco2.jpg');
     background-repeat: repeat-x;
     background-size:cover;
 }
