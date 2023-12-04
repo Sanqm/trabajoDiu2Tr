@@ -4,9 +4,7 @@ main{
     height: auto;
 }
 
-div{
-    border: solid 2px green;
-}
+
 .cabecera{
     display: flex;
     flex-direction: column;
@@ -127,11 +125,27 @@ a, a:visited{text-decoration: none;
     margin-right: 5px;
 }
 /******Direccion de la bodega con los mapas de google******/
+
+.separador{
+    border: solid 1px #0f0f0f;
+    
+}
 .direccion{
+    margin-top: 2em;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     width: auto;
     height: 35%;
+}
+
+.dir{
+    line-height: 2em;
+}
+.dir p{
+    font-size: 1em;
+}
+h5{
+   text-align: center;
 }
