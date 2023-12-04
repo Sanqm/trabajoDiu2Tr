@@ -74,7 +74,6 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     width: 100vw;
-    /*height: max-content;*/
     background-image: url('/img/imgBotellas/3botellasSerigrafiaMarco2.jpg');
     background-repeat: repeat-x;
     background-size:cover;

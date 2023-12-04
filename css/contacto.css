@@ -1,112 +1,42 @@
 main{
-   background-color: white;
-   width: 100vw;
-   height: max-content;
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-   justify-content: center;
-   
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    height: auto;
+}
+div{
+    border: solid 1px red;
 }
 
 .encabezado{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
     text-align: center;
-    margin-top: 3em;
-    line-height: 4em;
+    height: 10%;
+    width: auto;
+    margin-top:2em;
 }
+
+.encabezado h1{
+    font-size: 3em;
+    
+}
+.encabezado h2{
+    margin: 1em;
+}
+
+/*******************************/
 
 .contacto{
-    display: grid;
-    grid-template-columns: 2fr 4fr;
-    justify-content: space-around;
-    width:100%
-
-}
-.contactForm{
     display: flex;
     flex-direction: column;
-    margin: 3em;
-}
-.contactForm label{
-    margin: 0.5em;
-}
-
-.inp, textarea{
-    height: 3em;
-    margin-bottom: 1em;
-    box-shadow: 5px 5px 2px rgb(0,0,0,0.2);
-}
-
-.contactForm button{
-   width: 8em;
-   align-self: center;
-   margin: 2em;
-   height: 3em; 
-   border: solid 2px black;
-   font-size: 1em;
-}
-
-.enviar input{
-    margin-right: 3px;
-}
-
- a, a:hover {
- text-decoration: none;
- color: black;
-}
-span{
-    color: red;
-}
-
-.newsLetter{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     align-content: center;
-    text-align: center;
-    width: 100%;
-  
-}
-.newsActivar{
-    display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
-    margin: 1em;
-    height: auto;
-    width: 100%;
-}
-
-.suscribirse{
-    max-width: max-content;
-    max-height: max-content;
-}
-
-.suscribirse input{
-    height: 3em;
-    width: 100%;
-    margin: 1em;
-    box-shadow: 5px 5px 2px rgb(0,0,0,0.2);
-}
-.suscribirse button{
-    height: 3em;
-    width: 30%;
-    margin: 1em;
-    border: solid 2px black;
-}
-
-.direccion{
-    display: grid;
-    grid-template-columns: auto auto;
-   width: 100vw;
-   height: max-content;
-}
-
-.dir{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap ;
-    align-content: center;
-   
-    line-height: 2em;
+    width: auto;
+    height: 60%;
 }
