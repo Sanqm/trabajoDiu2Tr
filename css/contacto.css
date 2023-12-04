@@ -1,42 +1,92 @@
 main{
     background-color: white;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
     height: auto;
 }
 div{
     border: solid 1px red;
 }
 
-.encabezado{
+.cabecera{
     display: flex;
     flex-direction: column;
-    align-content: center;
     flex-wrap: wrap;
     text-align: center;
-    height: 10%;
     width: auto;
-    margin-top:2em;
+    height: 15%;    
 }
-
-.encabezado h1{
+.cabecera h1{
     font-size: 3em;
-    
-}
-.encabezado h2{
-    margin: 1em;
+    margin-top: 2em;
 }
 
-/*******************************/
+.cabecera h2{
+    margin-bottom: 2em;
+}
 
-.contacto{
+/*Engloba el formulario y las newslatter*/
+.contacto{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: 50%;
+    gap: 30%;
+}
+
+.contactForm{
     display: flex;
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
     width: auto;
-    height: 60%;
+}
+
+span{
+    color: red;
+}
+
+.contactForm label{
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.inp{
+    height: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    box-shadow: 5px 5px 2px rgb(0,0,0,0.2);
+}
+
+.contactForm textarea{
+    margin-bottom: 1em;
+    box-shadow: 1px 1px 1px rgb(0,0,0,0.2);
+}
+
+#enviar{ /*boton enviar formulario */
+    margin-top:1em ;
+    margin-right: 1em;
+    padding: 1em;
+    width:15em;
+    border: solid 2px black;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: transparent;
+}
+#enviar:hover{background-color: black;color: white;}
+
+a, a:visited{text-decoration: none; 
+    color: black;
+    margin-left:3px ;
+}
+
+/******Direccion de la bodega con los mapas de google******/
+.direccion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: auto;
+    height: 35%;
 }
