@@ -1,112 +1,151 @@
 main{
-   background-color: white;
-   width: 100vw;
-   height: max-content;
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-   justify-content: center;
-   
+    background-color: white;
+    width: 100%;
+    height: auto;
 }
 
-.encabezado{
+
+.cabecera{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     text-align: center;
-    margin-top: 3em;
-    line-height: 4em;
+    width: auto;
+    height: 15%;    
+}
+.cabecera h1{
+    font-size: 3em;
+    margin-top: 2em;
 }
 
-.contacto{
-    display: grid;
-    grid-template-columns: 2fr 4fr;
-    justify-content: space-around;
-    width:100%
-
+.cabecera h2{
+    margin-bottom: 2em;
 }
+
+/*Engloba el formulario y las newslatter*/
+.contacto{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: 50%;
+    gap: 20%;
+    margin-bottom: 3em;
+}
+
 .contactForm{
     display: flex;
     flex-direction: column;
-    margin: 3em;
-}
-.contactForm label{
-    margin: 0.5em;
+    align-content: center;
+    flex-wrap: wrap;
+    width: auto;
 }
 
-.inp, textarea{
+span{
+    color: red;
+    font-size: 12px;
+}
+
+.contactForm label{
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.inp{
     height: 3em;
+    margin-top: 1em;
     margin-bottom: 1em;
     box-shadow: 5px 5px 2px rgb(0,0,0,0.2);
 }
 
-.contactForm button{
-   width: 8em;
-   align-self: center;
-   margin: 2em;
-   height: 3em; 
-   border: solid 2px black;
-   font-size: 1em;
+.contactForm textarea{
+    margin-bottom: 1em;
+    box-shadow: 1px 1px 1px rgb(0,0,0,0.2);
+    
 }
 
-.enviar input{
-    margin-right: 3px;
+#enviar{ /*boton enviar formulario */
+    margin-top:1em ;
+    margin-right: 1em;
+    padding: 1em;
+    width:15em;
+    border: solid 2px black;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: black;
+    color: white;
 }
-
- a, a:hover {
- text-decoration: none;
- color: black;
-}
-span{
-    color: red;
+a, a:visited{text-decoration: none; 
+    color: black;
+    margin-left:3px ;
 }
 
 .newsLetter{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    align-content: center;
     text-align: center;
-    width: 100%;
-  
+    width: 40%;
 }
-.newsActivar{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 1em;
-    height: auto;
+.newsLetter h2{
+    font-weight: 900;
+    font-size: 2em;
+    margin: 4em;
+}
+.newsLetter h3{
+    margin-bottom: 2em;
+}
+
+.newsLetter p{
     width: 100%;
 }
 
-.suscribirse{
-    max-width: max-content;
-    max-height: max-content;
-}
-
-.suscribirse input{
+#inpsuscribirse{
+    width: 70%;
     height: 3em;
-    width: 100%;
-    margin: 1em;
-    box-shadow: 5px 5px 2px rgb(0,0,0,0.2);
+    box-shadow: 1px 1px 1px rgb(0,0,0,0.2);
 }
-.suscribirse button{
+#btnsuscriberse{
+    width: 20%;
     height: 3em;
-    width: 30%;
-    margin: 1em;
-    border: solid 2px black;
+    background-color: black;
+    color: white;
+    border: none;
+}
+#pdatos{
+    text-align: left;
+    margin-left: 39px;
+    margin-right: 5px;
+    margin-top: 1em;
 }
 
+#pdatos input{
+    margin-right: 5px;
+}
+/******Direccion de la bodega con los mapas de google******/
+
+.separador{
+    border: solid 1px #0f0f0f;
+    
+}
 .direccion{
-    display: grid;
-    grid-template-columns: auto auto;
-   width: 100vw;
-   height: max-content;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: auto;
+    height: 35%;
 }
 
 .dir{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap ;
-    align-content: center;
-   
     line-height: 2em;
+}
+.dir p{
+    font-size: 1em;
+}
+h5{
+   text-align: center;
 }

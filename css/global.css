@@ -2,17 +2,20 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-
 }
-
 
 @font-face {
   font-family: 'Open Sans', sans-serif;
-  src: url(/Practiva2_Blog-Basico-Flex/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+  src: url('../fonts/Open_Sans/static/OpenSans-Regular.ttf')
+}
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url('../fonts/Roboto/Roboto-Regular.ttf')
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #0f0f0f;
   margin: 0 auto;
   max-width: 100%;
@@ -123,4 +126,6 @@ footer ul li a, footer a:visited {
 
 .socialMedia img{
   filter: invert();
+  width: 30px;
+  height: 30px;
 }

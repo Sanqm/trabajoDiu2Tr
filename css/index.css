@@ -2,60 +2,102 @@ main {
   width: 100%;
   display: flex;
   flex-direction: column;
-  max-height: max-content;
+  height: auto;
 }
 
 .imgPantalla {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.imgPantalla img {
-  height: 78vh;
-  width: 750px;
-}
-
-.panel {
-  display: flex;
-  flex-direction: row;
-  background-color: white;
-
-}
-
-.panel div {
-  width: 100%;
-  height: max-content;
-}
-
-h2 {
-  text-align: center;
-  margin-top: 2em;
-}
-
-.panel div p {
-  text-align: justify;
-  line-height: 25px;
-  margin: 1.5em;
-  padding-top: 1em;
-}
-
-#imgCopa,
-#imgBodega {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   height: max-content;
+  width: 100%;
 
 }
 
-.imgPanel {
-  width: 90%;
-  height: max-content;
-  margin-top: 3em;
+.imgPantalla img {
+  height: 90vh;
+  width: 600px;
+}
+
+
+/***************secciones************************/
+
+.historia{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+ height: max-content;
+}
+
+.panel{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+ height: auto;
+}
+
+.imgs{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+ height: auto;
+}
+
+.imgPanel{
+  margin-top: 2em;
   margin-bottom: 2em;
-  border-radius: 40px;
+  width: 90%;
+  height:400px;
+  object-fit: cover; /* o "contain"  */
+  justify-self: center;
+  
 }
 
+.txthistoria{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: max-content;
+}
+
+.txthistoria p {
+  line-height: 2em;
+  text-align: center;
+  font-style: italic;
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 20px;
+}
+.poculto, .pocultoB{
+  display: none;
+  max-height: max-content;
+}
+
+.txthistoria h2{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btnmostrar{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 1em;
+  width: 30%;
+  font-size: 20px;
+  color:white;
+  background-color: black;
+  border: solid 2px black;
+ 
+}
