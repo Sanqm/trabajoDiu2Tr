@@ -102,6 +102,14 @@ a, a:visited{text-decoration: none;
     width: 100%;
 }
 
+.susNovedades{
+    animation-name: novedades;
+    animation-duration: 5s;
+  
+
+}
+
+
 #inpsuscribirse{
     width: 70%;
     height: 3em;
@@ -113,7 +121,29 @@ a, a:visited{text-decoration: none;
     background-color: black;
     color: white;
     border: none;
+    animation-name: botonSuscribirse;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    transition-timing-function: ease;
 }
+/*Creación de animación para el boton de suscribirse*/
+@keyframes botonSuscribirse {
+    0%   {background-color: black;}
+    25%  {background-color:red;}
+    50%  {background-color: black;}
+    100% {background-color:red;}
+}
+
+@keyframes novedades{
+    from{
+        margin-left: 35%;
+    }
+    to{
+        margin-right: 0%;
+    }
+}
+
+
 #pdatos{
     text-align: left;
     margin-left: 39px;

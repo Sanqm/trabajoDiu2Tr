@@ -42,6 +42,22 @@ main {
  height: auto;
 }
 
+.videos{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+ height: auto;
+}
+.vpanel{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 90%;
+  height:400px;
+  object-fit: cover; /* o "contain"  */
+  justify-self: center;
+}
+
 .imgs{
   display: flex;
   justify-content: center;
